@@ -1,0 +1,111 @@
+/* Alap stílusok */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+nav ul li a,
+.book h2 a {
+  color: #ff0000;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.book h2 a {
+  -webkit-text-stroke: 1px rgb(245, 5, 5);
+  text-stroke: 1px rgb(245, 2, 2);
+  text-fill-color: transparent;
+}
+
+nav ul li a:hover {
+  color: #009dff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#filter {
+  margin-bottom: 20px;
+}
+
+.book {
+  width: 100%;
+  border: 1px solid #cdbd46;
+  padding: 10px;
+  margin-bottom: 0 auto;
+}
+
+.book-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 48%;
+}
+
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-image: url("background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.book-table td {
+  width: 25%;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid rgb(230, 195, 119);
+  background-color: rgba(243, 186, 121, 0.791);
+}
+
+.book img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.borrow-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.borrow-button:hover {
+  background-color: #b33300;
+}
+
+html {
+  background-image: url("bg_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
